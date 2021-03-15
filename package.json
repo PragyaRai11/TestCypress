@@ -5,7 +5,8 @@
   "main": "Server.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules\\.bin\\cypress run",
+    "runtests": "npm run test"
   },
   "author": "Pragya",
   "license": "ISC",
