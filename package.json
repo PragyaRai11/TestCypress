@@ -4,9 +4,9 @@
   "description": "practice",
   "main": "Server.js",
   "scripts": {
-    "cypress:open": "cypress open",
-    "test": "node_modules\\.bin\\cypress run",
-    "runtests": "npm run test"
+    "start": "my-server -p 3030",
+    "cy:run": "cypress run",
+    "test": "start-server-and-test start http://localhost:3030 cy:run"
   },
   "author": "Pragya",
   "license": "ISC",
