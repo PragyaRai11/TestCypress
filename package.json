@@ -4,15 +4,16 @@
   "description": "practice",
   "main": "Server.js",
   "scripts": {
-    "start": "my-server -p 3030",
+    "start": "my-server -p 8080",
     "cy:run": "cypress run",
-    "test": "start-server-and-test start http://localhost:3030 cy:run"
+    "test": "start-server-and-test start http://localhost:8080 cy:run"
   },
   "author": "Pragya",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^6.3.0",
     "start-server-and-test": "^1.12.0"
+
   },
   "dependencies": {},
   "keywords": []
