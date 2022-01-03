@@ -5,9 +5,7 @@
   "main": "Server.js",
   "scripts": {
     "test": "npm start & wait-on http://localhost:8080",
-    "start": "npm start & wait-on http://localhost:8080"
-
-  },
+    "start": "npx cypress run --record --key 89399070-75b7-4dc1-98a3-9b5c5da28356"},
   "author": "Pragya",
   "license": "ISC",
   "devDependencies": {
